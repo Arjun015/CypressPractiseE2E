@@ -1,0 +1,14 @@
+{
+    "POST": {
+        "name": "Arjun Jadhav",
+        "gender": "male",
+        "email": "",
+        "status": "active"
+    },
+    "PUT": {
+        "name": "Aarti Kate",
+        "gender": "female",
+        "email": "",
+        "status": "active"
+    }
+}
