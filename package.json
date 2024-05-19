@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:AddToCart":"npx cypress run --spec cypress/e2e/CypressInterviewQs/POM_HomePage/homePage.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "chromeExecution": "npx cypress run cypress/e2e/CypressInterviewQs/**/*.js --browser chrome --headed",
     "edge": "npx cypress run cypress/e2e/CypressInterviewQs/**/*.js --browser edge --headed",
