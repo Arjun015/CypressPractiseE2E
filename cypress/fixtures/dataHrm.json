@@ -1,0 +1,14 @@
+{
+    "loginHrm" : {
+        "userName":"admin",
+        "passWord":"admin123"
+
+    },
+
+    "HomepageHrm" :{
+        "firstname":"Jonny",
+        "MiddleName":"Michel",
+        "lastName":"Jordan",
+        "id" : 3323
+    }
+}

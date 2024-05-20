@@ -10,11 +10,17 @@
 //
 //
 // -- This is a parent command --
-Cypress.Commands.add('login', (email, password) => {
+// Cypress.Commands.add('login', (email, password) => {
+//     cy.visit(Cypress.env('baseurl'))
+//     cy.get("#input-email").type(email)
+//     cy.get("#input-password").type(password)
+//     cy.get("input.btn.btn-primary").click()
+// })
+Cypress.Commands.add('login', (username, password) => {
     cy.visit(Cypress.env('baseurl'))
-    cy.get("#input-email").type(email)
-    cy.get("#input-password").type(password)
-    cy.get("input.btn.btn-primary").click()
+    cy.get("input[name='username']").type(username)
+    cy.get("input[name='password']").type(password)
+    cy.get("'button[type='submit']").click()
 })
 
 //
