@@ -5,6 +5,7 @@ const path = require('path');
 
 module.exports = defineConfig({
   //"defaultCommandTimeout": 15000,
+  //includeShadowDom:true,
   "reporter": 'cypress-mochawesome-reporter',
   e2e: {
     //baseUrl :"https://rahulshettyacademy.com/seleniumPractise/#/",
