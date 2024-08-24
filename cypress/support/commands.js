@@ -36,5 +36,16 @@ Cypress.Commands.add('login', (username, password) => {
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('parseXlsx', (inputFile) => {
-    return cy.task('parseXlsx' , { filePath: inputFile})
+    return cy.task('parseXlsx', { filePath: inputFile })
+})
+
+Cypress.Commands.add('HrmSessionlogin', (username, password) => {
+    cy.session([username, password], function () {
+        cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+        cy.get("input[name='username']").type(username)
+        cy.get("input[name='password']").type(password)
+        cy.get("button[type='submit']").click()
+
+    })
+
 })

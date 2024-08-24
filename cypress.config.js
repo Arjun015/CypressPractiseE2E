@@ -6,6 +6,7 @@ const path = require('path');
 module.exports = defineConfig({
   //"defaultCommandTimeout": 15000,
   "reporter": 'cypress-mochawesome-reporter',
+  "chromeWebSecurity" :false, // for multiTab and multiWindow(if baseUrl is change )
   e2e: {
     //baseUrl :"https://rahulshettyacademy.com/seleniumPractise/#/",
     //baseurl :"https://naveenautomationlabs.com/opencart/index.php?route=account/login",
