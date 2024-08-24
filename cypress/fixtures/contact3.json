@@ -1,0 +1,20 @@
+[
+    {
+        "firstName": "Anjali",
+        "lastName": "Mhatre",
+        "email": "Anju@gmail.com",
+        "message": "I am the Automation Test Engineer"
+    },
+    {
+        "firstName": "Bajrangi",
+        "lastName": "Bhishm",
+        "email": "hanuman@gmail.com",
+        "message": "I am the data engineer"
+    },
+    {
+        "firstName": "Mahesh",
+        "lastName": "Talwade",
+        "email": "talwade@gmail.com",
+        "message": "Wanted"
+    }
+]

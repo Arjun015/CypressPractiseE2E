@@ -5,6 +5,7 @@ const path = require('path');
 
 module.exports = defineConfig({
   //"defaultCommandTimeout": 15000,
+  //includeShadowDom:true,
   "reporter": 'cypress-mochawesome-reporter',
   "chromeWebSecurity" :false, // for multiTab and multiWindow(if baseUrl is change )
   e2e: {
