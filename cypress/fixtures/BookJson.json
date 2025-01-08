@@ -1,0 +1,27 @@
+[
+    {
+      "BookID": 1,
+      "BookAuthor": "J.K. Rowling",
+      "BookName": "Harry Potter and the Sorcerer's Stone",
+      "BookLocation": ["London", "New York", "Los Angeles"]
+    },
+    {
+      "BookID": 2,
+      "BookAuthor": "George R.R. Martin",
+      "BookName": "A Game of Thrones",
+      "BookLocation": ["Winterfell", "King's Landing", "Essos"]
+    },
+    {
+      "BookID": 3,
+      "BookAuthor": "J.R.R. Tolkien",
+      "BookName": "The Hobbit",
+      "BookLocation": ["Shire", "Rivendell", "Mirkwood"]
+    },
+    {
+      "BookID": 4,
+      "BookAuthor": "Dan Brown",
+      "BookName": "The Da Vinci Code",
+      "BookLocation": ["Paris", "Rome", "London"]
+    }
+  ]
+  
